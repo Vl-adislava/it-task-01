@@ -1,3 +1,23 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&display=swap');*/
+@font-face {
+    font-family: "Monserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-regular.ttf') format('truetype'),
+         url('../fonts/montserrat-regular.woff')format('woff'),
+         url('../fonts/montserrat-regular.woff2')fomat('woff2');
+  }
+  @font-face {
+    font-family: "Monserrat";
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/montserrat-bold.ttf') format('truetype'),
+         url('/fonts/montserrat-bold.woff')format('woff'),
+         url('/fonts/montserrat-bold.woff2')fomat('woff2');
+  }
+
+
+
 main, footer{
     text-align: center;
     width : 600px;
@@ -19,4 +39,4 @@ main, footer{
    .social-link {
     text-decoration: none;
    }
-   
+ 
